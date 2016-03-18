@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.pkshetlie.carnetdepeche">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="fr.pkshetlie.carnetdepeche.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fr.pkshetlie.carnetdepeche.PartiePecheForm"
+            android:label="@string/title_activity_partie_de_peche"
+            android:parentActivityName="fr.pkshetlie.carnetdepeche.MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="fr.pkshetlie.carnetdepeche.PartiePecheView"
+            android:label="@string/title_activity_partie_en_cours"
+            android:parentActivityName="fr.pkshetlie.carnetdepeche.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="fr.pkshetlie.carnetdepeche.PriseForm"
+            android:label="@string/title_activity_prise_form"
+            android:parentActivityName="fr.pkshetlie.carnetdepeche.PartiePecheView"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="PartiePecheView"
+
+                />
+        </activity>
+
+        <activity
+            android:name="fr.pkshetlie.carnetdepeche.PriseView"
+            android:label="@string/title_activity_prise_view"></activity>
+    </application>
+
+</manifest>

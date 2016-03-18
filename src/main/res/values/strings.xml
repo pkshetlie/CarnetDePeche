@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carnet de peche</string>
+    <string name="title">Titre</string>
+    <string name="heure_debut">Heure</string>
+    <string name="heure_fin">Heure</string>
+    <string name="date_debut">Date de debut</string>
+    <string name="date_fin">Date de fin</string>
+    <string name="select_type">Type de pêche</string>
+    <string name="select_eau">Type de plan d\'eau</string>
+    <string name="comment">Commentaire libre</string>
+    <string name="title_activity_partie_de_peche">Partie de pêche</string>
+    <string name="title_activity_partie_en_cours">Partie en cours</string>
+    <string name="action_new_prise">Nouvelle Prise</string>
+    <string name="action_new_peche">Nouvelle Peche</string>
+    <string name="action_peche_save">Sauvegarder</string>
+    <string name="action_version">Version de votre application</string>
+    <string name="no_title">Pas de titre</string>
+    <string name="go_back_ask_no_title">Sans titre votre partie de peche ne sera pas sauvegardée, voulez vous entrer un titre ?</string>
+    <string name="go_back_ask_no_type">Sans type de poisson votre Prise ne sera pas sauvegardée, voulez vous selectionner le type de poisson ?</string>
+    <string name="yes">oui</string>
+    <string name="ok">OK</string>
+    <string name="no">Non</string>
+    <string name="title_activity_prise_form">PriseForm</string>
+    <string name="select_type_poisson">Selection du type de poisson</string>
+    <string name="options">options</string>
+    <string name="action_prise_save">Enregistrer</string>
+    <string name="you_are_going_to_delete">Etes vous sur de vouloir supprimer cet élement ?</string>
+    <string name="default_empty">please wait</string>
+    <string name="cm">cm</string>
+    <string name="kg">Kg</string>
+    <string name="the_fish">Le poisson</string>
+    <string name="take_photo">prendre une photo</string>
+    <string name="new_prise">Nouvelle prise</string>
+    <string name="title_activity_fullscreen_main">FullscreenMainActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="logo">logo</string>
+    <string name="last_peches">Dernières parties</string>
+    <string name="last_prises">Dernières prises</string>
+    <string name="showcase_first_peche">Pour ajouter votre premiere partie de peche cliquez ici, remplissez le formulaire et faites retour pour valider</string>
+    <string name="showcase_first_prise">Pour ajouter votre premiere Prise cliquez ici, remplissez le formulaire et faites retour pour valider</string>
+    <string name="showcase_title">Première Partie de peche</string>
+    <string name="showcase_peche_edit">Ho ! Un menu caché !</string>
+    <string name="showcase_hidden_menu">Faites un clic long pour afficher le menu</string>
+    <string name="delete">Supprimer</string>
+    <string name="action_share">Partager</string>
+    <string name="title_activity_prise_view">PriseView</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="showcase_title_prise">Première prise</string>
+    <string name="type_poisson">Type de poisson</string>
+    <string name="action_search">Chercher</string>
+
+</resources>

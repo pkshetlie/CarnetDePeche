@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type_de_peche">
+        <item>pêche de bord</item>
+        <item>bateau/barque</item>
+        <item>float tube</item>
+    </string-array>
+    <string-array name="water">
+        <item>bassin</item>
+        <item>étang</item>
+        <item>lac</item>
+        <item>rivière</item>
+        <item>fleuve</item>
+        <item>embouchure</item>
+        <item>mer</item>
+    </string-array>
+
+    <string-array name="poissons">
+        <item>Autre</item>
+        <item>Groupe de poisson/Bourriche</item>
+        <item>Ablette</item>
+        <item>Alose</item>
+        <item>Amour Blanc</item>
+        <item>Anguille</item>
+        <item>Bar ou loup</item>
+        <item>Barbeau</item>
+        <item>Black bass</item>
+        <item>Bonite</item>
+        <item>Brochet</item>
+        <item>Brème</item>
+        <item>Cabillaud</item>
+        <item>Carassin</item>
+        <item>Carpe</item>
+        <item>Chabot</item>
+        <item>Chevesne</item>
+        <item>Congre</item>
+        <item>Dorade</item>
+        <item>Eperlan</item>
+        <item>Gardon</item>
+        <item>Goujon</item>
+        <item>Hotu</item>
+        <item>Liche</item>
+        <item>Lieu</item>
+        <item>Lotte</item>
+        <item>Maigre</item>
+        <item>Maquereau</item>
+        <item>Merlan</item>
+        <item>Mulet</item>
+        <item>Ombles</item>
+        <item>Orphie</item>
+        <item>Perche</item>
+        <item>Perche soleil</item>
+        <item>Plie</item>
+        <item>Poisson chat</item>
+        <item>Raie</item>
+        <item>Rascasse</item>
+        <item>Rotengle</item>
+        <item>Rouget</item>
+        <item>Sandre</item>
+        <item>Sar</item>
+        <item>Sardine</item>
+        <item>Saumon</item>
+        <item>Silure</item>
+        <item>Sole</item>
+        <item>Tanche</item>
+        <item>Truites</item>
+        <item>Vairon</item>
+    </string-array>
+
+    <string-array name="menu_long_click">
+        <item>Modifier</item>
+        <item>Supprimer</item>
+        <item>Ouvrir</item>
+    </string-array>
+
+</resources>

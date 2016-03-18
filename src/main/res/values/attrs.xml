@@ -1,0 +1,29 @@
+<!--
+  ~ Copyright (c) 2014. Les scripts sont la propriété exclusive de pierrick pobelle, toutes modifications ou revente est interdite.
+  -->
+
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="ShowcaseView">
+        <attr name="sv_backgroundColor" format="color|reference" />
+        <attr name="sv_detailTextColor" format="color|reference" />
+        <attr name="sv_titleTextColor" format="color|reference" />
+        <attr name="sv_buttonBackgroundColor" format="color|reference" />
+        <attr name="sv_buttonForegroundColor" format="color|reference" />
+        <attr name="sv_buttonText" format="string|reference" />
+        <attr name="sv_detailTextAppearance" format="reference" />
+        <attr name="sv_titleTextAppearance" format="reference" />
+        <attr name="sv_showcaseColor" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="showcaseViewStyle" format="reference" />
+    </declare-styleable>
+</resources>

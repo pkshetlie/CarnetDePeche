@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.pkshetlie.carnetdepeche.PriseForm">
+
+    <item
+        android:id="@+id/action_prise_save"
+        android:icon="@drawable/ic_send_black_24dp"
+        android:title="@string/action_prise_save"
+        app:showAsAction="ifRoom" />
+</menu>

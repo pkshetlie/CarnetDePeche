@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.pkshetlie.carnetdepeche.CurrentPeche">
+
+    <!--<item android:id="@+id/action_edit_peche"
+        android:icon="@drawable/ic_action_edit"
+        android:title="@string/action_edit_peche"
+     />-->
+
+    <item
+        style="@style/OpacityRegulated"
+        android:id="@+id/action_new_prise"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="@string/action_new_prise"
+        app:showAsAction="ifRoom" />
+
+    <!--<item android:id="@+id/action_delete"
+        android:icon="@drawable/ic_action_cancel"
+        android:title="@string/action_cancel_peche"
+         />-->
+
+
+</menu>
