@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright (c) 2014. Les scripts sont la propriété exclusive de pierrick pobelle, toutes modifications ou revente est interdite.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="fr.pkshetlie.carnetdepeche.PriseView">
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="@string/action_share"
+        android:alpha="50"
+        app:showAsAction="ifRoom" />
+</menu>
